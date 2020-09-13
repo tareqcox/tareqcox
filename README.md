@@ -1,4 +1,4 @@
-### Hi there 👋 <br/> This is Tareq Aziz  
+### Hi there 👋 <br/><b> This is Tareq Aziz  </b>
 
 <!--
 **tareqcox/tareqcox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
