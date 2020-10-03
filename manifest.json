@@ -1,5 +1,6 @@
 {
  "name": "EdutechBD",
+"short_name" : "EdutechBD"
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "https://www.edutechbd.xyz"
