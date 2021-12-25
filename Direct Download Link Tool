@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta name="google-site-verification" content="GmCqRAE5O3vmyO5jUtpkSUxZJYoU-GuLuwSZe0sWWng" />
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163325768-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163325768-10');
+</script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=5" />
+    <title>Google Drive Direct Download Link Generator</title>
+    <meta name="description" content="Google Drive Direct Download Link Generatortool allows you to generate a direct download link to files you have stored in Google Drive. A direct link will immediately start downloading the file" />
+    <meta name="keywords" content="Google drive link generator, GDrive direct link,Google Drive Direct Download Link Generator,Direct Download Link Generator,Google Drive Direct Download Link Generator For Free," />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+	<meta itemprop="url" content="" />
+    <meta itemprop="name" content="Drive Direct Link Generator" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <link rel="alternate" type="application/rss+xml" title="Google Drive Direct Download Link Generator" href="http://feeds.gdrive.pixelnatures.in"/>
+    <link rel="canonical" href="https://gdrive.pixelnatures.in"/>
+    <meta property="og:site_name"content="Google Drive Direct Link Generator"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <link href='https://blogger.googleusercontent.com/img/a/AVvXsEjTmsbwPp7f9a_grbhpfe8xOM5JOJvsHpqu1XZhWqGhTujuEYjCEWEejq5X5A0gTZdUNkABVkBbaYVdJWTyLYc2OzDbcen4qtjabZcUVuN3XDHBDVBU4_VsIWjQJMS_Vl6QUJLFNa2RAzVXyuyFVUwOl6JRf0n8gVGKnOCmuvYO6krY--KyZEHOLg=s200' rel='shortcut icon'/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>  
+    <style type="text/css">
+      body {
+        display: ;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+      h1 {
+        font-size: 3em;
+      }
+      main {
+        flex: 1 0 auto;
+      }
+      h2 {
+        font-size: 2em;
+      }
+      h3{
+        font-size:1em;   
+        }
+      main {
+        flex: 1 0 auto;
+      }
+      footer {
+        padding-top: 0 !important;
+        width:100%;
+      }
+      #data {
+        background: #fafafa;
+        border: #eee solid 1px;
+        padding: 12px;
+        word-break: break-word;
+      }
+      #main {
+        width: 100%;
+      }
+      #progress {
+        position: absolute;
+        margin-top: 0;
+      }
+      #title {
+        width: 100%;
+      }
+      #url {
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      #url:focus {
+        border-bottom: 1px solid #008000;
+        box-shadow: 0 1px 0 0 #008000;
+      }
+      #url:focus + label {
+        color: #008000;
+      }
+      .black-text {
+        color: #000000 !important;
+      }
+      .max-lines {
+        float: right;
+        font-size: 12px;
+        padding-bottom: 16px;
+      }
+      .support {
+        text-align: center;
+        color: #9e9e9e;
+      }
+      .valign-top {
+        vertical-align: top;
+      } 
+    .fixed-header{
+        width: 100%;
+        position: fixed;        
+        background: #fff;
+        padding: 10px 0;
+        color: #000;
+        text-align: center;
+    }
+   .fixed-header{
+      z-index: 999999;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6em;
+      line-height: $lh; 
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto; 
+    }
+    
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #fff;
+  color: black;
+  width:100%
+}
+      nav{
+        background-color:#4287f5;
+        
+        width:100%
+        }
+      
+    </style>
+	<link rel="me" href="https://www.blogger.com/profile/14217792318276748005" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+<!-- data-ad-client=ca-pub-7106786904889658 -->
+</head>
+  <body>
+    <div class="fixed-header">
+     <div class="container">
+       <h1 style="text-align: center; font-size:20px;">GDrive Direct Link Generator</h1>
+  <nav>
+<ul>  
+<li>  
+<a href="/">Home</a>  
+</li>  
+<li>  
+<a href="/p/about.html">About</a>  
+</li>  
+<li>  
+<a href="/p/contact.html">Contact</a>  
+</li>  
+<li> <a href="/p/privacy-policy.html">Privacy Policy</a>  
+</li>  
+</ul>  
+</nav>
+      </div>
+      </div>
+    <br>
+    <br>
+    <div class="progress blue lighten-3 hide" id="progress">
+      <div class="indeterminate blue"></div>
+    </div>	
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!--Ads1 Start-->
+     <div class='AT-ads-content'>
+     <ins class="adsbygoogle"
+          style="display:inline-block;height:90px;width:100%;line-height:90px;" 
+          data-ad-client="ca-pub-7106786904889658" 
+          data-ad-slot="8739667740">
+     </ins>
+     <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+     </div>
+  <!--Ads1 Finnish-->
+    <main class="container align-wrapper">
+      <div class="row" id="main">
+        <div class="col 12 center" id="title">
+          <h1>Google Drive Direct Download Link Generator </h1>
+    <strong><p style=" text-align: centre">The Best Tool for create direct download for your Google Drive files </p></strong>
+        </div>
+        <div class="col s12">
+          <form action="#" id="direct-link-form">
+            <div class="input-field col s12">
+              <textarea id="url" class="materialize-textarea"></textarea>
+              <label for="url"
+                >Enter your sharing Google Drive URL</label>
+              <span class="max-lines"><span id="max-lines">
+                </span></span>
+            </div>
+            <div class="center-align">
+              <button
+                id="submit"
+                type="submit"
+                class="waves-effect waves-light btn red" >
+                Create Direct Link
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <!--Ads 2 Start-->
+     <div class='AT-ads-content'>
+     <ins class="adsbygoogle"
+          style="display:inline-block;height:90px;width:100%;line-height:90px;" 
+          data-ad-client="ca-pub-7106786904889658" 
+          data-ad-slot="8739667740">
+</ins>
+<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
+</div>
+  <!--Ads 2 end-->
+    <div class="container section hide" id="result">
+      <p style="text-align: center">👇<b>Results:</b>This Your Direct Download Link 👇</p>
+      <ul id="data"></ul>
+      <div class="row">
+        <div class="col s12 center-align">     
+          <button id="copy-btn" class="btn red" data-clipboard-target="#data">
+            Copy
+          </button>
+        </div>
+      </div>
+    </div>
+<!-- GDrive_link_2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7106786904889658"
+     data-ad-slot="2843455188"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    <div class="container" id="about">
+<h2>About</h2>
+<p>This tool allows you to generate a direct download link to files you have stored in Google Drive. A direct link will immediately start downloading the file, rather than opening a preview of the file in Google Drive.
+
+This tool is absolutely free for all of you. You can generat Direct Download link it from here and use it anytime and anywhere. </p><div/>
+<hr>
+<div class="container text-center" id="about">
+<br>
+  <div class="container" id="how">
+    <h2 style="text-align: left;">How to Get Google Drive Sharing URL</h2><p style="text-align: left;"><b>Google Drive Direct Link Generator</b> tool allows you to generate a <b>direct download link </b>to files you have stored in <b>Google Drive</b>. A <b>direct link </b>will immediately start downloading the file, rather than opening a preview of the file in Google Drive.</p><p><b>Step 1: </b>Go to Google Drive and right click the file that you want to share, then click on "Get shareable link"</p><p><b>Step 2: </b>In the window that comes up, change the visibility to "Anyone with the link"</p><p><b>Step 3: </b>Click on "Copy link" to Get your Google drive file URL.</p><p><b>Step 4:</b> Paste that link into the text box above and click "Create Direct Link" to create your link. Enjoy!<div/>
+    <hr>
+    <div class="container section support">
+      <span
+        >If you have any Query please Contact Us Email:-
+        <a href="mailto: debashis195@gmail.com"> #Email </a></span >  
+  </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        // Sets the copyright year
+        var date = new Date();
+        $('2020').text(date.getFullYear());
+        // Creates a clipboard variable
+        var clipboard = new Clipboard('#copy-btn');
+
+        // Clears all tooltips when a mouse out event is emitted
+        $('#copy-btn').mouseout(function() {
+          $('.material-tooltip').remove();
+        });
+        // Listener for successful copy
+        clipboard.on('success', function(e) {
+          // Sets a tooltip for the button
+          $('#copy-btn').tooltip({ delay: 0, tooltip: 'Copied!' });
+          // Workaround to make the tooltip appear
+          $('#copy-btn').mouseover();
+          // Clears the tooltip
+          setTimeout(function() {
+            // $('#copy-btn').tooltip('remove');
+          }, 1000);
+
+          e.clearSelection();
+        });
+        // Listener for error while trying to copy to the clipboard
+        clipboard.on('error', function(e) {
+          // Sets a tooltip for the button
+          var action = /Mac/i.test(navigator.userAgent) ? '⌘' : 'Ctrl';
+          $('#copy-btn').tooltip({
+            delay: 0,
+            tooltip: `Press ${action}-C to Copy`,
+          });
+          // Workaround to make the tooltip appear
+          $('#copy-btn').mouseover();
+          // Clears the tooltip
+          setTimeout(function() {
+            // $('#copy-btn').tooltip('remove');
+          }, 1000);
+        });
+
+        // Listens on keydown in order to prevent linebreaks more than the maxLines variable
+        $('#url').on('keydown', function(e) {
+          if (
+            e.keyCode == 13 &&
+            $(this)
+              .val()
+              .split('\n').length >= maxLines
+          ) {
+            return false;
+          }
+        });
+
+        // Shows max lines text
+        $('#max-lines').text(maxLines);
+
+        // Disables or enables the buttons
+        function toggleDisabled() {
+          $('#progress').toggleClass('hide');
+          toggleElementDisabled('#url');
+          toggleElementDisabled('#submit');
+          toggleElementDisabled('#copy-btn');
+        }
+
+        // Toggles the disabled attribute
+        function toggleElementDisabled(selector) {
+          if ($('#progress.hide')[0]) {
+            $(selector).removeAttr('disabled');
+          } else {
+            $(selector).attr('disabled', 'disabled');
+          }
+        }
+		
+var _0x9e08=["\x41\x49\x7A\x61\x53\x79\x42\x4B\x66\x6A\x39\x6C\x6A\x66\x2D\x45\x43\x56\x34\x72\x56\x47\x72\x71\x49\x42\x54\x65\x30\x4F\x38\x70\x37\x62\x46\x67\x47\x37\x55","\x6C\x65\x6E\x67\x74\x68","\x2F","\x73\x70\x6C\x69\x74","\x3C\x6C\x69\x3E\x24\x7B\x65\x2E\x72\x65\x73\x70\x6F\x6E\x73\x65\x4A\x53\x4F\x4E\x2E\x65\x72\x72\x6F\x72\x2E\x6D\x65\x73\x73\x61\x67\x65\x7D\x3C\x2F\x6C\x69\x3E","\x61\x70\x70\x65\x6E\x64","\x23\x64\x61\x74\x61","\x66\x61\x69\x6C","\x77\x65\x62\x43\x6F\x6E\x74\x65\x6E\x74\x4C\x69\x6E\x6B","","\x72\x65\x70\x6C\x61\x63\x65","\x3C\x6C\x69\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22","\x22\x3E","\x3C\x2F\x61\x3E\x3C\x2F\x6C\x69\x3E","\x3C\x6C\x69\x3E\x43\x6F\x75\x6C\x64\x20\x6E\x6F\x74\x20\x67\x65\x74\x20\x64\x69\x72\x65\x63\x74\x20\x6C\x69\x6E\x6B\x20\x66\x6F\x72\x3A\x20","\x74\x68\x65\x6E","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x67\x6F\x6F\x67\x6C\x65\x61\x70\x69\x73\x2E\x63\x6F\x6D\x2F\x64\x72\x69\x76\x65\x2F\x76\x33\x2F\x66\x69\x6C\x65\x73\x2F","\x3F\x6B\x65\x79\x3D","\x26\x66\x69\x65\x6C\x64\x73\x3D\x77\x65\x62\x43\x6F\x6E\x74\x65\x6E\x74\x4C\x69\x6E\x6B","\x61\x6A\x61\x78"];var apiKey=_0x9e08[0];var regex=/[A-z_\-0-9]{28}/;var idArray=[];var idIndex=0;var maxLines=20;function makeApiCall(){if(idIndex< idArray[_0x9e08[1]]){var _0x5290x7=idArray[idIndex];_0x5290x7= _0x5290x7[_0x9e08[3]](_0x9e08[2])[0];if(_0x5290x7){$[_0x9e08[19]]({url:`${_0x9e08[16]}${_0x5290x7}${_0x9e08[17]}${apiKey}${_0x9e08[18]}`})[_0x9e08[15]](function(_0x5290xa){if(_0x5290xa[_0x9e08[8]]){var _0x5290xb=_0x5290xa[_0x9e08[8]][_0x9e08[10]](/&export=download/,_0x9e08[9]);$(_0x9e08[6])[_0x9e08[5]](`${_0x9e08[11]}${_0x5290xb}${_0x9e08[12]}${_0x5290xb}${_0x9e08[13]}`)}else {$(_0x9e08[6])[_0x9e08[5]](`${_0x9e08[14]}${idArray[idIndex]}${_0x9e08[9]}`)};idIndex++;setTimeout(function(){makeApiCall()},500)})[_0x9e08[7]](function(_0x5290x8,_0x5290x9){$(_0x9e08[6])[_0x9e08[5]](_0x9e08[4]);idIndex++;setTimeout(function(){makeApiCall()},500)})}else {idIndex++;setTimeout(function(){makeApiCall()},500)}}else {toggleDisabled()}}
+
+        // Submit listener
+        $('#direct-link-form').on('submit', function(e) {
+          e.preventDefault();
+          idIndex = 0;
+          idArray = $('#url')
+            .val()
+            .split('\n')
+            .slice(0, maxLines)
+            .join('\n')
+            .split(
+              /https:\/\/drive\.google\.com\/open\?id=|https:\/\/drive\.google\.com\/file\/d\//
+            )
+            .slice(1);
+          // Checks for every id if it has a correct format.
+          if (
+            idArray.length > 0 &&
+            idArray.every(function(id) {
+              return regex.test(id);
+            })
+          ) {
+            $('#data').text('');
+            $('#result').removeClass('hide');
+            idArray.map(function(parsedId) {
+              return parsedId.split('/')[0];
+            });
+            toggleDisabled();
+            makeApiCall();
+          } else {
+            alert('Unable to get the ID from the URL(s).');
+          }
+        });
+      });
+    </script>
+  <footer>
+  <p> Create by— OralcoxBD <br>
+  <a href="https://www.oralcoxbd.xyz">OralcoxBD</a></p>
+</footer>
+  <script type='text/javascript'>
+//<![CDATA[
+var la=!1;window.addEventListener("scroll",function(){(0!=document.documentElement.scrollTop&&!1===la||0!=document.body.scrollTop&&!1===la)&&(!function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(e,a)}(),la=!0)},!0);
+//]]>
+</script>
+  
+  </body>
+</html>
