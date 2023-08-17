@@ -34,16 +34,26 @@ const englishDays = [
     function convertToBanglaTime(englishDate) {
       const hours = englishDate.getHours();
       const minutes = englishDate.getMinutes();
+      const seconds = englishDate.getSeconds();
 
       const banglaHours = hours.toString().split('').map(digit => banglaNumbers[englishNumbers.indexOf(digit)]).join('');
       const banglaMinutes = minutes.toString().split('').map(digit => banglaNumbers[englishNumbers.indexOf(digit)]).join('');
+      const banglaSeconds = seconds.toString().split('').map(digit => banglaNumbers[englishNumbers.indexOf(digit)]).join('');
 
-      return `${banglaHours}:${banglaMinutes}`;
+      return `${banglaHours}:${banglaMinutes}:${banglaSeconds}`;
     }
 
-    const englishDate = new Date();
-    const banglaFormattedDate = convertToBanglaDate(englishDate);
-    const banglaFormattedTime = convertToBanglaTime(englishDate);
+    function updateClock() {
+      const englishDate = new Date();
+      const banglaFormattedDate = convertToBanglaDate(englishDate);
+      const banglaFormattedTime = convertToBanglaTime(englishDate);
 
-    const banglaDateTimeElement = document.getElementById('banglaDateTime');
-    banglaDateTimeElement.textContent = `${banglaFormattedDate} ${banglaFormattedTime}`;
+      const banglaDateTimeElement = document.getElementById('banglaDateTime');
+      banglaDateTimeElement.textContent = `${banglaFormattedDate} ${banglaFormattedTime}`;
+    }
+
+    // Update the clock every second
+    setInterval(updateClock, 1000);
+    
+    // Initial update
+    updateClock();
